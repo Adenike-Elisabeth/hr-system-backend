@@ -4,150 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37e25151-7f64-4491-866b-83b95d56947b" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/HrSupportCentreSq014Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/cloudinaryconfig/CloudinaryConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/controllers/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/controllers/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/controllers/AwardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/controllers/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/controllers/HRController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/controllers/JobController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/controllers/PasswordResetRequestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/data_seeder/DataSeeder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/AddPermissionRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/AddRoleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/AdminRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/AuthenticationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/AwardRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/ChangePasswordRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/CreateHrRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/CreateStaffRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/EmployeeProfileRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/ErrorDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/JobPostingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/JobSearchRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/JobUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/NominationApprovalRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/NominationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/PasswordResetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/request/RegistrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/AddRoleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/AdminResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/AllAwardsResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/AuthenticationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/AwardResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/CreateHrResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/CreateStaffResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/CustomErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/EmployeeProfileResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/EmployeeViewProfileResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/ExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/JobPostingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/JobResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/JobSearchResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/RegistrationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/StaffProfileDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/StaffProfileMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/ViewStaffResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/dtos/response/ViewStaffResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/Applicant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/Award.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/NextOfKin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/Nominee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/PasswordResetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/entities/entityUtil/Socials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/enums/JobStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/enums/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/AwardsNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/DuplicateProcessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/EmailNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/EmployeeExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/EmployeeNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/InvalidDateChoiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/InvalidDateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/JobPostingExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/JobPostingNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/NoJobsFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/NoRoleFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/ResourceAlreadyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/UnauthorisedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/UnauthorizedUserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/exceptions/UserAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/repositories/ApplicantRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/repositories/AwardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/repositories/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/repositories/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/repositories/JobRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/repositories/NomineeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/repositories/PasswordResetRequestRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/repositories/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/repositories/TeamRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/repositories/TokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/scheduler/JobPostingScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/security_config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/security_config/SecurityConfigFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/security_config/utils/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/security_config/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/security_config/utils/SecurityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/AwardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/HrService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/JobService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/PasswordResetRequestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/serviceImpl/AwardsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/serviceImpl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/serviceImpl/HrServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/serviceImpl/JobServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/serviceImpl/LogoutServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/serviceImpl/MailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/serviceImpl/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/serviceImpl/PasswordResetRequestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/serviceImpl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/serviceImpl/TokenServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/services/serviceImpl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/utils/PaginationConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hrsupportcentresq014/utils/Social.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ER diagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hrsupportcentresq014/HrSupportCentreSq014ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hrsupportcentresq014/controllers/HRControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hrsupportcentresq014/entities/TestUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hrsupportcentresq014/services/serviceImpl/EmployeeServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hrsupportcentresq014/services/serviceImpl/EmployeeServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="37e25151-7f64-4491-866b-83b95d56947b" name="Changes" comment="Init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,27 +24,27 @@
     </option>
   </component>
   <component name="ProjectId" id="2TUMNOwZlHlxR2r3mgeGbuP5M5C" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/decagon/Desktop/hr-system-backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/decagon/Desktop/hr-system-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -238,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691093164935</updated>
       <workItem from="1691093173784" duration="957000" />
+      <workItem from="1692118641595" duration="285000" />
     </task>
     <servers />
   </component>
